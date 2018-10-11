@@ -1,0 +1,19 @@
+#logo img {
+    border: 0;
+}
+
+#logo {
+    z-index: 1;
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.logo {
+    left: 0;
+    position: absolute;
+}
+
+div {
+    display: block;
+}
