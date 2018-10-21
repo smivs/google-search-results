@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
       <meta charset="utf-8" />
       <title>Google Search</title>
@@ -8,11 +9,69 @@
   </head>
 
   <body>
-      <header>
-          <div id="logo" class="logo">
-          <img src="/the_odin_project/google-search-results/googlelogo.png" alt="google" height="44" width="120" 
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <img src="/the_odin_project/google-search-results/googlelogo.png" alt="google"> 
           </div>
-      </header>
+          <div class="search">
+               <div class="search__input">
+                   <input type="text" class="input__search__text">
+                   <img class="search__mic" src="mic.png" alt="Microphone">
+                   <img class="search__btn" src="search.png" alt="Search">
+               </div> 
+          </div>
+          <nav class="nav">
+               <div class="nav__box">
+						       <a href="https://www.google.co.id/intl/en/options/">
+							         <i class="fas fa-th"></i>
+						       </a>
+					      	 <div class="nav__notification">
+							        <div class="nav__notification__box">
+								         <a href="#">1</a>
+						        	</div>
+						       </div>
+						       <div class="nav__account">
+						            <div class="nav__account__box">
+								           <a href="#">R</a>
+						        	  </div>
+					      	 </div>
+				       </div>
+          </nav>
+         </div>
+
+         <div class="option">
+               <div class="option__left">
+                   <a href="#" class="active">All</a>
+                   <a href="#">Images</a>
+				           <a href="#">Videos</a>
+				        	 <a href="#">News</a>
+					         <a href="#">Maps</a>
+					         <a href="#">More</a>
+               </div>
+
+               <div class="option__right">
+                   <a href="#">Settings</a>
+                   <a href="#" class="tools">Tools</a>
+               </div>
+          </div>
+       </header>
+
+       <div class="results__returned">
+           <p>About 353,000,000 (0.52 seconds)</p>
+       </div>
+
+       <div class="search__results">
+           <div>
+               <h3>HTML CSS - W3Schools</h3>
+               <cite class="links">https:www.w3schools.com/html_css.asp</cite>
+               <p><strong>CSS</strong> stands for Cascading Style Sheets. <strong>CSS</strong> describes how <strong>HTML</strong> elements are to be displayed on screen, paper, or in other media. <strong>CSS</strong> saves a lot of work.
+               <div class="page__links"> 
+                   <a href="#">HTML with internal CSS</a>
+                   <a href="#">HTML with inline CSS</a>
+               <div>
+       </div>
+
 
   </body>
 
