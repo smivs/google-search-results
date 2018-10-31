@@ -14,6 +14,10 @@ html {
     color: #222;
     position: relative;
   }
+
+  div {
+    display: block;
+  }
   
   img {
     max-width: 100%;
@@ -315,15 +319,37 @@ html {
   }
 
   .search__related {
-    
+    display: inline-block;
+  
   }
 
   a {
     text-decoration: none;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 5px;
   }
 
   #s__related {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     font-size: 1.8rem;
-  }
   
+  }
+
+  s__left {
+    
+    
+  }
+
+  s__right {
+
+  }
+   
+h4 {
+  font-weight: normal;
+  margin: 10px 10px 10px 0px;
+}
+
+#search__related div {
+  display: inline-block;
+}
