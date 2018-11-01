@@ -199,25 +199,27 @@ html {
   
   .search__mic {
     position: absolute;
-    top: .8rem;
+    top: 1.0rem;
     left: 57rem;
-    height: 2.5rem;
+    height: 2.8rem;
   }
   
   .search__btn {
     position: absolute;
     top: .9rem;
-    left: 60rem;
-    height: 2.1rem;
+    left: 60.5rem;
+    height: 2.6rem;
   }
   
   .search__input {
     position: relative;
     margin-bottom: 3rem;
+    width: 632px;
+    height: 45px;
   }
   
   .search__input__text {
-    width: 63.5rem;
+    width: 63rem;
     height: 4rem;
     padding: 5px 0;
     padding-left: 1.6rem;
@@ -288,6 +290,7 @@ html {
   .search__results {
     padding-left: 175px;
     margin-right: 500px;
+    padding-top: 10px;
   }
 
   .links {
@@ -353,3 +356,89 @@ h4 {
 #search__related div {
   display: inline-block;
 }
+
+.more__pages__logo {
+  display: block;
+}
+
+.yellow_o {
+  height: 1.7rem;
+}
+
+.red_o {
+  height: 1.7rem;
+}
+
+.red_e {
+  height: 1.7rem;
+}
+
+.big_g {
+  height: 2.7rem;
+}
+
+.g_small {
+  height: 2.7rem;
+  position: relative;
+  top: .8rem;
+}
+
+.green_l {
+  height: 2.7rem;
+}
+
+.arrow {
+  height: 1.7rem;
+}
+
+.more__pages__number {
+  display: block;
+  margin-top: -2.5rem;
+  padding-right: 17.5px;
+  padding-bottom: 20px;
+}
+
+.more__pages {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.more__pages__number a {
+  color: #4285f4;
+  font-size: 1.3rem;
+  padding: 0.65rem;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  position: relative;
+  border-top: 1px;
+  margin-left: -180px;
+  margin-right: -508px;
+}
+
+.footer__1 {
+  border-top: 1px solid #e4e4e4;
+  padding: 1.2rem 0;
+  padding-left: 180px;
+}
+
+.footer__2 {
+  border-top: 1px solid #e4e4e4;
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+    padding-left: 175px;
+}
+
+.footer__2 a {
+  color: rgba(0, 0, 0, 0.54);
+
+}
+
+.footer__1 p {
+  font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+
